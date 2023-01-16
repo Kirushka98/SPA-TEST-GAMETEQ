@@ -1,0 +1,72 @@
+@import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import '~igniteui-angular/lib/core/styles/themes/index';
+
+body {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 30px;
+}
+
+html, body {
+  height: 100%;
+}
+
+button {
+  margin: 0 8px;
+}
+
+.sample-wrapper {
+  margin: 16px;
+}
+
+.combo-section {
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  margin-bottom: 16px;
+}
+
+.combo {
+  width: 430px;
+}
+
+@media (max-width: 700px) {
+  button {
+    margin: 16px 0;
+  }
+}
+
+
+$custom-combo-theme: combo-theme(
+  $search-separator-border-color: #1a5214
+);
+
+$custom-drop-down-theme: drop-down-theme(
+  $background-color: #d9f5d6,
+  $header-text-color: #1a5214,
+  $item-text-color: #1a5214,
+
+  $focused-item-background: #72da67,
+  $focused-item-text-color: #1a5214,
+  $hover-item-background: #a0e698,
+  $hover-item-text-color: #1a5214,
+
+  $selected-item-background: #a0e698,
+  $selected-item-text-color: #1a5214,
+  $selected-hover-item-background: #72da67,
+  $selected-hover-item-text-color: #1a5214,
+  $selected-focus-item-background: #72da67,
+  $selected-focus-item-text-color: #1a5214,
+);
+
+$custom-checkbox-theme: checkbox-theme(
+  $border-radius: 10px,
+  $fill-color: #1a5214,
+  $empty-color: #1a5214,
+);
+
+:host {
+  @include css-vars($custom-combo-theme);
+  @include css-vars($custom-drop-down-theme);
+  @include css-vars($custom-checkbox-theme);
+}

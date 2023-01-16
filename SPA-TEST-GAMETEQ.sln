@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPA-TEST-GAMETEQ", "SPA-TEST-GAMETEQ\SPA-TEST-GAMETEQ.csproj", "{D02748B5-8A47-43BA-AC34-495ED679B76B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CONSOLE-TEST-GAMETEQ", "CONSOLE-TEST-GAMETEQ\CONSOLE-TEST-GAMETEQ.csproj", "{BF52A67F-FD9F-4DB8-9A4C-59F6A8A914CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DB-TEST-GAMETEQ", "DB-TEST-GAMETEQ\DB-TEST-GAMETEQ.csproj", "{9A8A352C-9BA9-4AC6-B3D6-D8850E6B9129}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D02748B5-8A47-43BA-AC34-495ED679B76B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D02748B5-8A47-43BA-AC34-495ED679B76B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D02748B5-8A47-43BA-AC34-495ED679B76B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D02748B5-8A47-43BA-AC34-495ED679B76B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF52A67F-FD9F-4DB8-9A4C-59F6A8A914CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF52A67F-FD9F-4DB8-9A4C-59F6A8A914CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF52A67F-FD9F-4DB8-9A4C-59F6A8A914CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF52A67F-FD9F-4DB8-9A4C-59F6A8A914CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A8A352C-9BA9-4AC6-B3D6-D8850E6B9129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A8A352C-9BA9-4AC6-B3D6-D8850E6B9129}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A8A352C-9BA9-4AC6-B3D6-D8850E6B9129}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A8A352C-9BA9-4AC6-B3D6-D8850E6B9129}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
